@@ -29,7 +29,6 @@ function App() {
             <Typography variant='h2' align="center" color="testPrimary" gutterBottom style={{ marginTop: 50}}>Photo Album</Typography>
             <Typography variant='h6' align="center" color="testSecondary" paragraph>Explore the beauty of nature through our curated collection of breathtaking landscape photographs.</Typography>
             <div>
-              {/* style is sx in WU */}
               <Grid container spacing={2} justifyContent="center" style={{ marginBottom: 50 }}>
                 <Grid  item>
                   <Button variant="contained" color="primary">My Photos</Button>
